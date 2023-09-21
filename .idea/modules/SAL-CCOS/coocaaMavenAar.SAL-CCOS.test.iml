@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":SAL-CCOS:test" external.linked.project.path="$MODULE_DIR$/../../../SAL-CCOS" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="coocaaMavenAar" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../SAL-CCOS/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../SAL-CCOS/src/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="coocaaMavenAar.SAL-CCOS.main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.alibaba:fastjson:1.1.70.android" level="project" />
+    <orderEntry type="library" name="Gradle: swaiotos.base:skysdk:1.0.620" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.alibaba:fastjson:1.1.71.android" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="coocaaMavenAar.SAL-CCOS.main" />
+</module>

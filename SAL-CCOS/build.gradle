@@ -1,0 +1,45 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+sourceSets {
+    main.java.srcDirs = [
+            'SkyFramework/SkyJavaLibrary/SystemServiceSDK/src',
+            'SkyFramework/SkyJavaLibrary/TVSDK/src',
+    ]
+}
+
+dependencies {
+    compileOnly files("libs/android.jar")
+    compileOnly files("libs/layoutlib.jar")
+    implementation "com.alibaba:fastjson:1.1.70.android"
+    implementation 'swaiotos.base:skysdk:+'
+}
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    archiveClassifier = 'sources'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId "ccos.sdk"
+            artifactId "rgb-system-sdk"
+            version "1.0.3"
+            from components.java
+            artifact sourcesJar
+        }
+    }
+
+    repositories {
+        maven {
+            allowInsecureProtocol true
+            url 'http://172.20.135.19:8080/nexus/content/repositories/ccos-releases/'
+            credentials {
+                username 'deployment'
+                password 'Deploy@23#'
+            }
+        }
+    }
+}

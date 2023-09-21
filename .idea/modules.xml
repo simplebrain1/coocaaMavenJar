@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coocaaMavenAar.iml" filepath="$PROJECT_DIR$/.idea/modules/coocaaMavenAar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.iml" filepath="$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SAL-CCOS/coocaaMavenAar.SAL-CCOS.test.iml" />
+    </modules>
+  </component>
+</project>

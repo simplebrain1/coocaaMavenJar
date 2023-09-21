@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":SAL-CCOS:main" external.linked.project.path="$MODULE_DIR$/../../../SAL-CCOS" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="coocaaMavenAar" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../SAL-CCOS/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../SAL-CCOS/SkyFramework">
+      <sourceFolder url="file://$MODULE_DIR$/../../../SAL-CCOS/SkyFramework/SkyJavaLibrary/SystemServiceSDK/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../SAL-CCOS/SkyFramework/SkyJavaLibrary/TVSDK/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../SAL-CCOS/src/main" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../SAL-CCOS/libs/android.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../SAL-CCOS/libs/layoutlib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.alibaba:fastjson:1.1.70.android" level="project" />
+    <orderEntry type="library" name="Gradle: swaiotos.base:skysdk:1.0.620" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.alibaba:fastjson:1.1.71.android" level="project" />
+  </component>
+</module>
